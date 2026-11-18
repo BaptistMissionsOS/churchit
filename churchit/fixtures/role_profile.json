@@ -208,5 +208,98 @@
     "role": "Inbox User"
    }
   ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2026-11-16 07:30:00",
+  "name": "Church Pastor",
+  "role_profile": "Church Pastor",
+  "roles": [
+   {
+    "parent": "Church Pastor",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Church Staff"
+   },
+   {
+    "parent": "Church Pastor",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Church Pastoral Care"
+   },
+   {
+    "parent": "Church Pastor",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Church Follow-up"
+   },
+   {
+    "parent": "Church Pastor",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Inbox User"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2026-11-16 07:30:00",
+  "name": "Church Deacon",
+  "role_profile": "Church Deacon",
+  "roles": [
+   {
+    "parent": "Church Deacon",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Church Staff"
+   },
+   {
+    "parent": "Church Deacon",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Church Pastoral Care"
+   },
+   {
+    "parent": "Church Deacon",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Church Finance"
+   },
+   {
+    "parent": "Church Deacon",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Inbox User"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2026-11-16 07:30:00",
+  "name": "Church Elder",
+  "role_profile": "Church Elder",
+  "roles": [
+   {
+    "parent": "Church Elder",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Church Staff"
+   },
+   {
+    "parent": "Church Elder",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Church Pastoral Care"
+   },
+   {
+    "parent": "Church Elder",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Inbox User"
+   }
+  ]
  }
 ]

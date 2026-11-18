@@ -27,6 +27,9 @@ STAFF_PROFILES = (
 	"Church Treasurer",
 	"Church Check-In Volunteer",
 	"Church Follow-up Team",
+	"Church Pastor",
+	"Church Deacon",
+	"Church Elder",
 )
 
 

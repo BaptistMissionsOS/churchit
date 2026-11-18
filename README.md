@@ -358,7 +358,10 @@ Until the Payments app is installed, **Giving Settings** shows a notice, and Chu
    |---|---|---|
    | `Church Staff` | Staff who look things up | Their own prayer requests, sign-ups, care requests and room bookings. Reads people, events, groups and ministries. |
    | `Church Office` | Office administrators | People, families, groups and member transfers |
-   | `Church Care Team` | Pastors, deacons, care team | Care, counseling, visitation, background checks, prayer and alms requests |
+   | `Church Care Team` | Care team | Care, counseling, visitation, background checks, prayer and alms requests |
+   | `Church Pastor` | Pastors | Everything in Care Team, plus the follow-up cards they oversee |
+   | `Church Deacon` | Deacons | Everything in Care Team, plus collections, expenses, funds, budgets and giving statements |
+   | `Church Elder` | Elders | Care, counseling, visitation, background checks, prayer and alms requests |
    | `Church Treasurer` | Treasurer, bookkeeper | Collections, expenses, funds, budgets and giving statements |
    | `Church Check-In Volunteer` | Check-in desk | The Check-In Station only |
 
