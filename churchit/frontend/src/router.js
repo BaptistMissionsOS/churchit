@@ -14,7 +14,7 @@ const routes = [
 ];
 
 export default createRouter({
-	history: createWebHistory("/kiosk"),
+	history: createWebHistory("/door"),
 	routes,
 	scrollBehavior() {
 		return { top: 0 };

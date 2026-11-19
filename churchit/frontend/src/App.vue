@@ -13,10 +13,10 @@ useTheme();
 // Chrome and home data load once at app start and are shared with every route
 // through provide/inject, so Portal and Function Sign-Up never refetch the menu.
 const homeData = createResource({
-	url: "churchit.church_website.kiosk.get_home_data",
+	url: "churchit.church_website.door.get_home_data",
 	method: "GET",
 	auto: true,
-	cache: "kiosk:home_data",
+	cache: "door:home_data",
 });
 
 provide("homeData", homeData);

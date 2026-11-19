@@ -1,7 +1,7 @@
 # This source code is freely given for the sake of the gospel (Matthew 10:8)
 # and is licensed under MIT No Attribution (MIT-0).
 
-"""Data for the kiosk SPA. Each endpoint reads only and is open to guests, because the website is."""
+"""Data for the door SPA. Each endpoint reads only and is open to guests, because the website is."""
 
 import frappe
 from frappe import _
@@ -19,7 +19,7 @@ from churchit.church_website.portal_home import get_portal_home_sections
 
 @frappe.whitelist(allow_guest=True, methods=["GET"])
 def get_home_data() -> dict:
-	"""Everything the kiosk home page shows: church, menu, hero, stats, upcoming functions and latest sermon. Reads only."""
+	"""Everything the door home page shows: church, menu, hero, stats, upcoming functions and latest sermon. Reads only."""
 	church = get_church()
 	off_pages = get_switched_off_pages()
 	return {

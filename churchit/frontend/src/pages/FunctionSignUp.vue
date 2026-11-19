@@ -28,7 +28,7 @@ const socket = inject("socket");
 
 // Page payload: open functions and whether the reader may sign up at all.
 const signUpData = createResource({
-	url: "churchit.church_website.kiosk.get_function_sign_up_data",
+	url: "churchit.church_website.door.get_function_sign_up_data",
 	method: "GET",
 	auto: true,
 });
@@ -283,7 +283,7 @@ onUnmounted(() => {
 				style="animation-delay: 200ms"
 			>
 				<div class="mt-2 flex flex-wrap gap-3">
-					<a href="/login?redirect-to=/kiosk/function-sign-up">
+					<a href="/login?redirect-to=/door/function-sign-up">
 						<Button variant="solid" size="lg" class="btn-glow">
 							<template #prefix>
 								<LucideLogIn class="h-4 w-4" />

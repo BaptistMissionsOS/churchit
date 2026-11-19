@@ -220,7 +220,7 @@ const verseIndex = ref(0);
 let verseInterval = null;
 
 // Hour-of-day ring progresses the outer SVG arc on the countdown card — an
-// always-moving timepiece that makes the kiosk feel alive even on a quiet lobby wall.
+// always-moving timepiece that makes the door feel alive even on a quiet lobby wall.
 const hourRingProgress = computed(() => {
 	const d = now.value;
 	const totalSeconds = d.getHours() * 3600 + d.getMinutes() * 60 + d.getSeconds();
@@ -272,7 +272,7 @@ watch(stats, runCountUp);
 			</filter>
 		</svg>
 
-		<!-- Skeleton while the kiosk fetches home data -->
+		<!-- Skeleton while the door fetches home data -->
 		<div v-if="loading && !data" class="mx-auto max-w-7xl animate-pulse px-6 py-10 space-y-10" aria-hidden="true">
 			<div class="h-[32rem] rounded-[2rem] bg-slate-200/70 dark:bg-slate-800/70" />
 			<div class="grid grid-cols-2 gap-4 sm:grid-cols-4">

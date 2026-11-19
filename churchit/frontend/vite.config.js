@@ -6,19 +6,19 @@ import vue from "@vitejs/plugin-vue";
 import frappeui from "frappe-ui/vite";
 import path from "path";
 
-// The kiosk SPA. frappe-ui's preset handles lucide icons, the proxy to the
-// local bench, and copying the built index.html to churchit/www/kiosk.html so
+// The door SPA. frappe-ui's preset handles lucide icons, the proxy to the
+// local bench, and copying the built index.html to churchit/www/door.html so
 // Frappe serves it in production.
 export default defineConfig({
 	plugins: [
 		frappeui({
-			frontendRoute: "/kiosk",
+			frontendRoute: "/door",
 			// churchit nests the Vue app inside the python package, so the preset's
 			// auto-detection cannot find the Frappe app directory. Point it at the
 			// right folders by hand.
 			buildConfig: {
 				outDir: path.resolve(__dirname, "../public/frontend"),
-				indexHtmlPath: path.resolve(__dirname, "../www/kiosk.html"),
+				indexHtmlPath: path.resolve(__dirname, "../www/door.html"),
 			},
 		}),
 		vue(),

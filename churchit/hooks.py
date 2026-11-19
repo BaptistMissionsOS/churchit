@@ -152,10 +152,10 @@ website_redirects = [
 ]
 
 # One page per published sermon. A sermon name can hold a slash.
-# The kiosk SPA catches every sub-path so Vue Router owns navigation after the shell loads.
+# The door SPA catches every sub-path so Vue Router owns navigation after the shell loads.
 website_route_rules = [
 	{"from_route": "/sermon/<path:name>", "to_route": "sermon"},
-	{"from_route": "/kiosk/<path:app_path>", "to_route": "kiosk"},
+	{"from_route": "/door/<path:app_path>", "to_route": "door"},
 ]
 
 # /app-start, where the installed app opens. Shipped pages a church switched off answer 404

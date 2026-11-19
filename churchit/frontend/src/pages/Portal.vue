@@ -46,10 +46,10 @@ const router = useRouter();
 // The portal view loads its own payload so the SPA can render the exact same
 // sections and welcome copy the server-rendered /portal page shows today.
 const portalData = createResource({
-	url: "churchit.church_website.kiosk.get_portal_data",
+	url: "churchit.church_website.door.get_portal_data",
 	method: "GET",
 	auto: true,
-	cache: "kiosk:portal_data",
+	cache: "door:portal_data",
 });
 
 const ICONS = {

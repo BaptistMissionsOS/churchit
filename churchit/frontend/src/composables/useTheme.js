@@ -3,7 +3,7 @@
 
 import { ref, watchEffect } from "vue";
 
-const STORAGE_KEY = "kiosk:theme";
+const STORAGE_KEY = "door:theme";
 const prefersDark = typeof window !== "undefined" && window.matchMedia
 	? window.matchMedia("(prefers-color-scheme: dark)")
 	: null;
